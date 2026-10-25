@@ -1,0 +1,19 @@
+:root {
+  color-scheme: light;
+  background: #f5f6f8;
+  color: #172033;
+  font-family: Arial, "Yu Gothic", Meiryo, sans-serif;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { display: grid; min-height: 100svh; place-items: center; padding: 48px 24px; }
+section { width: 100%; max-width: 760px; }
+.eyebrow { color: #3457a4; font-size: 14px; font-weight: 700; letter-spacing: 0.08em; }
+h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.4; letter-spacing: -0.03em; overflow-wrap: anywhere; }
+.description { color: #485469; line-height: 1.9; }
+.getting-started { margin-top: 32px; padding: 24px; background: white; border: 1px solid #dce1ea; border-radius: 16px; }
+h2 { margin-top: 0; font-size: 18px; }
+ol { padding-left: 24px; margin-bottom: 0; }
+li { margin-top: 12px; line-height: 1.8; }
+code { font-size: 0.9em; overflow-wrap: anywhere; }
